@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: #f0f4f4;
+		background: #ffffff;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -2096,14 +2096,14 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
-		background-size: cover;
+        background-color: #000000
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: #000000;
 		text-align: center;
-		padding: 7.5em 0 2em 0;
+		padding: 2.5em 0 2em 0;
 		cursor: default;
+        
 	}
 
 		#header:before {
@@ -2131,7 +2131,7 @@
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #00000;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -2167,7 +2167,7 @@
 		}
 
 	body.homepage #header {
-		height: 100vh;
+		height: 20vh;
 		min-height: 40em;
 	}
 
@@ -2347,20 +2347,7 @@
 		margin-bottom: 0;
 	}
 
-/* Sidebar */
 
-	#sidebar > hr {
-		top: 3em;
-		margin-bottom: 6em;
-	}
-
-		#sidebar > hr.first {
-			display: none;
-		}
-
-	#sidebar > section {
-		margin-bottom: 0;
-	}
 
 /* Main */
 
