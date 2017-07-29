@@ -2167,7 +2167,7 @@
 		}
 
 	body.homepage #header {
-		height: 20vh;
+		height: 80vh;
 		min-height: 40em;
 	}
 
@@ -2364,7 +2364,7 @@
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		padding: 1em 0 1em 0;
 		background: #2b252c;
 		color: #fff;
 	}
@@ -2673,16 +2673,14 @@
 		/* Section/Article */
 
 			section, article {
-				margin-bottom: 2em;
+				margin-bottom: 0em;
 			}
 
 				section:last-child, article:last-child {
 					margin-bottom: 0;
 				}
 
-			.row > section, .row > article {
-				margin-bottom: 2em;
-			}
+			
 
 			header > p {
 				font-size: 1.25em;
@@ -2932,7 +2930,7 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 1em 3em 1em;
+				padding: 20em 1em 3em 1em;
 			}
 
 		/* Header */
