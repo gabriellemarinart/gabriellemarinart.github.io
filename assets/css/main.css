@@ -2789,7 +2789,7 @@ max-width: 700px;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 10;
+				height: 10%;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
@@ -2888,7 +2888,10 @@ max-width: 700px;
 			.wrapper {
 				padding: 0 1em 0 1em;
 			}
-
+#gallery {
+    max-width:479px;
+    left: 50%;
+}
 		/* Header */
 
 			#header {
