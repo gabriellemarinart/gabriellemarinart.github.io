@@ -50,10 +50,7 @@
   height: 100% !important;
   background-color: #111
 }
-#gallery {
-    max-width:850px;
-    margin: auto;
-}
+
 
 #gallery-container:-moz-full-screen {
   max-width: 100% !important;
