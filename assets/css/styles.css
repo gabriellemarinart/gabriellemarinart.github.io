@@ -20,6 +20,9 @@
 #nav a:hover{
     color:#ef8376
 }
+#navpanel a:hover{
+    color:#ef8376
+}
 
 
 
@@ -95,12 +98,7 @@
   opacity: 0;
   pointer-events: none
 }
-ul li a {
- display:block;
-}
-ul.icons li a:hover {
-					color: #ef8376;
-				}
+
 .icon-grid,
 .icon-arrow-left,
 .icon-arrow-right,
