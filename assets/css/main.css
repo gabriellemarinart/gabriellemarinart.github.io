@@ -1333,7 +1333,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 480px) {
 
 		.row > * {
 			padding: 20px 0 0 20px;
@@ -2603,7 +2603,7 @@ max-width: 700px;
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 600px) {
 
 		/* Basic */
 
