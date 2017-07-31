@@ -2621,7 +2621,7 @@ max-width: 700px;
 		display: none;
 	}
 
-	@media screen and (max-device-width: 480px) {
+	@media screen and (max-width: 480px) {
 #gallery {
     max-width:479px;
     margin: auto;
@@ -2810,7 +2810,7 @@ max-width: 700px;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 10%;
+				height: 25vh;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
@@ -2830,11 +2830,12 @@ max-width: 700px;
 					top: 0;
 					width: 100%;
 					height: 100%;
-					background: url("images/overlay.png");
+					
 					background-size: 128px 128px;
 				}
 
 				#navPanel .link {
+text-align: center;
 					position: relative;
 					z-index: 1;
 					display: block;
@@ -2844,6 +2845,7 @@ max-width: 700px;
 					border: 0;
 					border-top: dotted 1px rgba(255, 255, 255, 0.05);
 				}
+        
 
 					#navPanel .link:first-child {
 						border-top: 0;
