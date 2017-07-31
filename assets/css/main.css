@@ -144,7 +144,7 @@
 #gallery {
     max-width:850px;
     margin: auto;
-    
+    margin-right:-20px;
 }
 		.container.\31 25\25 {
 			width: 100%;
@@ -2513,20 +2513,16 @@ max-width: 700px;
 	}
 
 /* Normal */
-
-	@media screen and (max-device-width: 1280px) {
+@media screen and (max-device-width: 1200px) {
 #gallery {
-    max-width:750px;
-    margin:auto;
+    max-width:850px;
     margin-right:-20px;
-    
     
 }
 	@media screen and (max-width: 1280px) {
 #gallery {
-    max-width:750px;
-    margin:auto
-    
+    max-width:850px;
+    margin: auto;
     
 }
 		/* Basic */
