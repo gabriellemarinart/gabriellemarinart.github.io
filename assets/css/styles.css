@@ -4,6 +4,10 @@
 * Gallery-specific Styles
 *
 */
+body {
+    margin-right:-20px;
+    overflow-x:hidden;
+}
 
 * {
   margin: 0;
