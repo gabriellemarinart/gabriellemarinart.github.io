@@ -28,7 +28,11 @@ body {
     color:#ef8376
 }
 
-
+#contactpage {
+    max-width: 480px;
+    margin-left:auto;
+    margin-right:auto
+}
 
 }
 #gallery-container {
